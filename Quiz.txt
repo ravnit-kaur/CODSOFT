@@ -1,0 +1,237 @@
+<html>
+
+<head>
+
+ <title>Online Quiz</title>
+
+
+ <style>
+        
+  body{
+            
+   font-family: Arial, sans-serif;
+            
+   background: #D8BFD8;
+        
+  }
+
+        
+   .container{
+            
+    width: 500px;
+            
+    margin: auto;
+            
+    margin-top: 40px;
+            
+    background: white;
+            
+    padding: 20px;
+            
+    border-radius: 10px;
+        
+  }
+
+        
+   h1{
+            
+    text-align: center;
+            
+    color: purple;
+        
+  } 
+
+        
+   button{
+            
+    width: 100%;
+            
+    padding: 10px;
+            
+    background: purple;
+            
+    color: white;
+            
+    border: none;
+            
+    border-radius: 5px;
+        
+  }
+
+        
+  #result{
+            
+   text-align: center;
+            
+   font-size: 20px;
+            
+   color: green;
+            
+   margin-top: 15px;
+        
+  }
+
+ </style>
+
+</head>
+
+ 
+
+<body>
+
+
+
+<div class="container">
+
+
+
+<h1>Online Quiz</h1>
+
+
+
+<p><b>1. What does HTML stand for?</b></p>
+
+<input type="radio" name="q1" value="1"> Hyper Text Markup Language<br>
+
+<input type="radio" name="q1"> Home Tool Markup Language<br><br>
+
+
+
+<p><b>2. CSS is used for?</b></p>
+
+<input type="radio" name="q2"> Programming<br>
+
+<input type="radio" name="q2" value="1"> Styling<br><br>
+
+
+
+<p><b>3. JavaScript is used for?</b></p>
+
+<input type="radio" name="q3" value="1"> Interactivity<br>
+
+<input type="radio" name="q3"> Database<br><br>
+
+
+
+<p><b>4. Which tag is used for images?</b></p>
+
+<input type="radio" name="q4" value="1"> img<br>
+
+<input type="radio" name="q4"> image<br><br>
+
+
+
+<p><b>5. Which CSS property changes text color?</b></p>
+
+<input type="radio" name="q5" value="1"> color<br>
+
+<input type="radio" name="q5"> background<br><br>
+
+
+
+<button onclick="checkQuiz()">Submit Quiz</button>
+
+
+
+<div id="result"></div>
+
+
+
+</div>
+
+
+
+<script>
+
+
+
+function checkQuiz(){
+
+
+
+let score = 0;
+
+
+
+if(document.querySelector('input[name="q1"][value="1"]:checked'))
+score++;
+
+
+
+if(document.querySelector('input[name="q2"][value="1"]:checked'))
+score++;
+
+
+
+if(document.querySelector('input[name="q3"][value="1"]:checked'))
+score++;
+
+
+
+if(document.querySelector('input[name="q4"][value="1"]:checked'))
+score++;
+
+
+
+if(document.querySelector('input[name="q5"][value="1"]:checked'))
+score++;
+
+
+
+document.getElementById("result").innerHTML =
+"Your Score: " + score + "/5";
+
+
+
+}
+
+
+
+</script>
+
+
+
+
+</body>
+
+
+</html>     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 

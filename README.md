@@ -4,6 +4,7 @@ This project is a responsive Job Board website developed using HTML, CSS, and Ja
 
 #OUTPUT
 https://github.com/ravnit-kaur/CODSOFT/blob/d12f10c1bf8bca41c884189ee50e98590531e603/WhatsApp%20Image%202026-06-27%20at%208.36.57%20PM.jpeg
+
 https://github.com/ravnit-kaur/CODSOFT/blob/88adbd4f539e4474f1a3279227ac5a7b41f5af67/WhatsApp%20Image%202026-06-27%20at%208.36.58%20PM.jpeg
 
 QUIZ WEBSITE;

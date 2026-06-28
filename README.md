@@ -10,6 +10,9 @@ https://github.com/ravnit-kaur/CODSOFT/blob/88adbd4f539e4474f1a3279227ac5a7b41f5
 QUIZ WEBSITE;
 This project is a responsive Quiz website built using HTML, CSS, and JavaScript. It allows users to answer multiple-choice questions through an interactive interface and receive their scores instantly. The website is designed with a clean layout and responsive design to provide a seamless experience on both desktop and mobile devices. Developing this project enhanced my understanding of JavaScript, user interaction, and front-end web development.
 
-Technologies Used: HTML, CSS, JavaScript
+
+#OUTPUT
+https://github.com/ravnit-kaur/CODSOFT/blob/7a41da2ae9afe3403981f71b6e06896626903361/WhatsApp%20Image%202026-06-27%20at%208.37.00%20PM.jpeg
+
 
 This project was created as part of my learning journey to improve my web development skills and build practical Projects.
